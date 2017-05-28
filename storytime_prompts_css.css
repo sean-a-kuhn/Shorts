@@ -1,0 +1,112 @@
+body {
+	/* background-image:			url('img/nicolas-cage-con-air-2.jpg'); */
+	/* background-size:			40%; */
+	font-family:				Arial, Helvetica, sans-serif;
+	color:						white;
+	background-color:			#aaa;
+}
+
+.navlink {
+	font-size:					10vh;
+}
+
+/* to evenly space links in navbar */
+/* this one doesn't seem to work, so I'll revisit it later... maybe. taken from https://stackoverflow.com/questions/32140607/horizontal-list-that-evenly-divides-remaining-space-via-css
+.list-inline {
+  display: flex;
+}
+
+.list-inline li {
+  flex: 1;
+
+  text-align: center;
+}
+*/
+
+/* this doesn't seem to work either. taken from https://stackoverflow.com/questions/7647195/evenly-spaced-list-items
+
+ul {
+	display:						table;
+	table-layout:				fixed;
+}
+li { display: table-cell; text-align: center; }
+*/
+
+/* this doesn't work either... fuck it
+.navbar {
+   width: 						100%;
+   margin-left: 				auto;
+   margin-right: 				auto;
+}
+.navbar ul {
+   list-style-type: 			none;
+   text-align: 				center;
+   padding: 					0px;
+   zoom:							1;
+   overflow: 					hidden;
+}
+.navbar li{
+   padding: 					2px;
+   width: 						150px;
+   display:						inline-block;
+*/
+
+/* style text in navbar */
+.navbar {
+	color:						#aaa;
+}
+
+/*
+#heading {
+   background-image:       url('img/nicolas-rib-cage.jpg');
+	background-size:			20%;
+   height:                 200px;
+   width:                  auto;
+   background-color:       white;
+	text-align:             center;;
+	vertical-align:         middle;
+	line-height:				200px;
+}
+*/
+
+.sidebar {
+	background-color:			#99f;
+	height:						auto;
+	padding:						5px;
+}
+
+.sidebox {
+	background-color:			#ccf;
+	border:						2px solid white;
+	margin:						2px 0px;
+}
+
+.contentcontainer {
+	height:						auto;
+	border:						2px solid white;
+	padding:						5px;
+}
+
+.contentbox {
+	background-color:			#ffffe8;
+	height:						100vh;
+	width:						auto;
+	color:						black;
+	padding:						20px;
+}
+
+#dates {
+
+}
+
+#author {
+
+}
+
+#genres {
+
+}
+
+#main {
+
+}
