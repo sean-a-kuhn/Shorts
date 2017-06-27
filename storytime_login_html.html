@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en>">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SuperFriends StoryTime</title>
+
+      <!-- Link to Twitter Bootstrap -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!-- Link to custom CSS file -->
+      <link rel="stylesheet" type="text/css" href="storytime_prompts_css.css">
+   </head>
+   <body>
+
+      <div class="container">
+
+         <h1>SuperFriendStoryTime</h1>
+
+         <!-- navbar -->
+         <nav class="navbar navbar-default navheight" role="navigation">
+            <div class="container-fluid">
+               <div class="navbar-text"><i>Choose your passage...</i></div>
+               <ul class="nav navbar-nav list-inline nav-el">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="storytime_prompts_html.html">Prompts</a></li>
+                  <li><a href="storytime_stories_html.html">Stories</a></li>
+                  <li><a href="#">Authors</a></li>
+                  <li><a href="#">Browse</a></li>
+               </ul>
+               <div class="text-right nav-el"><a href="storytime_login_html.html"><button type="button" class="navbutton">Log in</button></a></div>
+            </div>
+         </nav>
+         <!-- end navbar -->
+
+         <!-- login box -->
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2 logincontainer">
+               <div class="loginbox">
+                  <form  action="">
+                     <label class="textshadow" for="email"><h4><strong>Email:</strong></h4></label>
+                     <div class="form-group input-group">
+                        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                     </div>
+                     <label for="pwd" class="textshadow"><h4><strong>Password:</strong></h4></label>
+                     <div class="form-group input-group">
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                     </div>
+                     <button type="submit" class="btn btn-default">Log in</button>
+                     <a href=""><h6>New User?</h6></a>
+                     <a href=""><h6>Forgot Password?</h6></a>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <!-- end login box -->
+
+      </div>
+
+</body>
+</html>
