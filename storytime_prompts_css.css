@@ -6,69 +6,59 @@ body {
 	background-color:			#aaa;
 }
 
-.navlink {
-	font-size:					10vh;
-}
-
-/* to evenly space links in navbar */
-/* this one doesn't seem to work, so I'll revisit it later... maybe. taken from https://stackoverflow.com/questions/32140607/horizontal-list-that-evenly-divides-remaining-space-via-css
-.list-inline {
-  display: flex;
-}
-
-.list-inline li {
-  flex: 1;
-
-  text-align: center;
-}
-*/
-
-/* this doesn't seem to work either. taken from https://stackoverflow.com/questions/7647195/evenly-spaced-list-items
-
-ul {
-	display:						table;
-	table-layout:				fixed;
-}
-li { display: table-cell; text-align: center; }
-*/
-
-/* this doesn't work either... fuck it
-.navbar {
-   width: 						100%;
-   margin-left: 				auto;
-   margin-right: 				auto;
-}
-.navbar ul {
-   list-style-type: 			none;
-   text-align: 				center;
-   padding: 					0px;
-   zoom:							1;
-   overflow: 					hidden;
-}
-.navbar li{
-   padding: 					2px;
-   width: 						150px;
-   display:						inline-block;
-*/
-
 /* style text in navbar */
 .navbar {
 	color:						#aaa;
 }
 
-/*
-#heading {
-   background-image:       url('img/nicolas-rib-cage.jpg');
-	background-size:			20%;
-   height:                 200px;
-   width:                  auto;
-   background-color:       white;
-	text-align:             center;;
-	vertical-align:         middle;
-	line-height:				200px;
+/* specify navbar height */
+.navheight {
+	height:						50px;
 }
-*/
 
+/* specify line-height of navbar elements so they are vertically centered */
+.nav-el {
+		line-height:			50px;
+}
+
+/* custom css for navbar button "log in" */
+.navbutton {
+	background-color:			#999;
+	color:						#fff;
+	border-radius:				10px;
+	height:						30px;
+	margin:						10px;
+	text-align:					center;
+	line-height:				30px;
+}
+
+.navbutton:hover {
+	background-color:			#fff;
+	color:						#999;
+	border: 						2px solid #999;
+	box-shadow: 				0px 0px 1px black;
+	transition-duration:		0.1s;
+}
+
+/* simple text-shadow class */
+.textshadow {
+	text-shadow:				1px 1px green;
+}
+
+/* custom css for page:login */
+.logincontainer {
+	height:						auto;
+	border:						2px solid white;
+	padding:						5px;
+}
+
+.loginbox {
+	background-color:			#bfc;
+	height:						350px;
+	padding:						30px 100px;
+}
+
+/* sidebar css */
 .sidebar {
 	background-color:			#99f;
 	height:						auto;
@@ -81,6 +71,7 @@ li { display: table-cell; text-align: center; }
 	margin:						2px 0px;
 }
 
+/* content box css */
 .contentcontainer {
 	height:						auto;
 	border:						2px solid white;
@@ -95,18 +86,3 @@ li { display: table-cell; text-align: center; }
 	padding:						20px;
 }
 
-#dates {
-
-}
-
-#author {
-
-}
-
-#genres {
-
-}
-
-#main {
-
-}
